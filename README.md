@@ -6,5 +6,5 @@ This fork uses the https://github.com/apsg/fpdf fork to provide support for Poli
 ## Installation with [Composer](https://packagist.org/packages/apsg/fpdi-fpdf)
 
 ```bash
-$ composer require setasign/fpdi-fpdf:2.2
+$ composer require apsg/fpdi-fpdf
 ```
