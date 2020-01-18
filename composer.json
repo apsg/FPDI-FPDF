@@ -1,19 +1,23 @@
 {
-    "name": "setasign/fpdi-fpdf",
+    "name": "apsg/fpdi-fpdf",
     "homepage": "https://www.setasign.com/fpdi",
-    "description": "Kind of metadata package for dependencies of the latest versions of FPDI and FPDF.",
+    "description": "Kind of metadata package for dependencies of the latest versions of FPDI and FPDF. Fork to provide polish language support",
     "type": "library",
-    "keywords": ["pdf", "fpdi", "fpdf"],
+    "keywords": [
+        "pdf",
+        "fpdi",
+        "fpdf"
+    ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jan Slabon",
-            "email": "jan.slabon@setasign.com",
-            "homepage": "https://www.setasign.com"
+            "name": "Szymon Gackowski",
+            "email": "szymon@gackowski.edu.pl",
+            "homepage": "https://gackowski.edu.pl"
         }
     ],
     "require": {
-        "setasign/fpdf": "^1.8",
+        "apsg/fpdf": "dev-masters",
         "setasign/fpdi": "^2.2"
     }
 }
